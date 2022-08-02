@@ -6,6 +6,9 @@ authors = ["Stijn de Gooijer <stijn@degooijer.io>"]
 license = "MIT"
 homepage = "https://github.com/stinodego/reqpy"
 repository = "https://github.com/stinodego/reqpy"
+packages = [
+    { include = "reqpy", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
